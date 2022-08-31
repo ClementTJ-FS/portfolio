@@ -1,3 +1,5 @@
+# [How to Identify Your Online Target Audience](https://conversionxl.com/how-to-identify-your-online-target-audience-and-sell-more/)
+
 - ## Why identifying your target audience matters
 
   - **Who the people are**, you know how to get to them (the blogs they read, the sites they visit, the stuff they search in Google, etc.);
@@ -25,3 +27,66 @@
   - ***\**\*Best converting landing pages.\*\**\*** Where is the incoming traffic landing on and does it convert? [Get the Best Converting Landing Pages Report.](https://www.google.com/analytics/web/permalink?uid=Q_AjAGhzStmN9-_XaEQhoQ)
   - ***\*Ecommerce report.\**** If you run an ecommerce site, you want to see which channels are performing the best. This GA custom report will show you visits per source along with revenue and visit value data. [Get the Ecommerce Traffic Report](https://www.google.com/analytics/web/permalink?type=custom_report&uid=7D6bwIWjR2C6K-h19m-xdg).
 
+# [Web Design and Targeting Your Target Audience](http://dianev.com/web-design-help/web_design_basics/target_audience.html)
+
+- ## **Representing your company well**
+
+  - The impression you convey to website visitors
+  - Potential customers are looking for whatever they're looking for, not what you want them to look for.
+
+- ## Your Target Audience
+
+  - Websites are about **communication**. Who are you communicating to?
+  - Everybody is not interested in your product.
+
+- ## Finding your target audience
+
+  - The idea is to meet those people looking for your product or service with your presentation of your product/service
+
+  - **Who are your customers?**
+
+  - **What kind of presentation would seem "right" to these particular people?**
+
+    &
+
+  - **Whose else might potentially buy your product or service?**
+
+  - **What kind of presentation would seem "right" to them?**
+
+- ## Web Designers & Target Audiences
+
+  - Don't completely rely on clients for design direction.
+
+# [3 Strategies for Your Target Employers](http://www.leamcleod.com/3-strategies-for-your-target-employers/)
+
+***“Stop Applying, Start Targeting.”\***
+
+- ## Applying is a transaction.
+
+  - Applying is filling out all the forms and sending your information into the black hole of the job application process, and most likely, “never hearing back.”
+  - Applying gives you very little control and even less leverage in your job search.
+
+- ## Targeting is a strategy.
+
+  - Targeting means you’ve identified who you are, [what you’re good at](https://www.leamcleod.com/how-to-brag-about-yourself-to-employers/), what kind of problems you can solve for what kind of employers who need the help you have to offer.
+  - Then, you’ve identified where those employers are in the universe and you go after them.
+
+- ## Targeting gives you far more control in your job search.
+
+  - It gives you a much more structured approach to finding your dream job.
+  - It allows you to get into the talent funnel before job requisitions are actually posted. 
+
+- ## You’ve targeted. Now what?
+
+  - Your goal is to start making contacts in the target organization and build relationships there. In the process, learn everything you can about the employer. Figure out what business problems they have that you can help solve.
+  - Hiring managers have a "list". **Your mission is to get on that list for an ideal employer.**
+
+- ## 3 Actions Once You’ve Targeted Employers
+
+  ### 1. Connect with people inside your target employer organizations.
+
+  ### 2. Request informational interviews with those people.
+
+  ### 3. Leverage Social Media.
+
+  
