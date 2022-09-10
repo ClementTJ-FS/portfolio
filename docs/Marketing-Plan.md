@@ -2,11 +2,11 @@
 
 **TJ Clement**
 
----
+<hr style="background-color:red" />
 
 ## Marketing
 
-### Goals -
+### Goals <span style="color:red">-</span>
 
 - Drive traffic to my portfolio from potential employers/clients.
   - Small/Medium/Large businesses that need a website built or redone.
@@ -14,20 +14,23 @@
 - Make it easy to find.
 - Insure the user experience/usability is good.
 
-### Methods -
+### Methods <span style="color:red">-</span>
 
 - Online
   - Include a link to the portfolio in everything appropriate; E-mails, LinkedIn, Other Social Media, blog posts. etc...
   - Share my portfolio on demo/review sites to get noticed.
   - Utilize proper SEO to increase my search ranking.
 - Offline
+
   - Create business cards to handout to potential clients/employers.
   - Attend industry conferences/conventions to network and get my name/portfolio out there.
   - Tell anyone who will listen what I do.
 
+<hr style="background-color:red" />
+
 ## SEO
 
-### How will I implement?
+### Implementation <span style="color:red">-</span>
 
 - Use unique and accurate `<title>` tags for my page.
   - IE: `<title>TJ Clement's Portfolio</title>`
@@ -45,7 +48,7 @@
 - Make site mobile friendly.
 - Use Google's [Search Console](https://search.google.com/search-console).to determine gaps in SEO.
 
-### Keywords
+### Keywords <span style="color:red">-</span>
 
 <table>
   <tr>
@@ -89,7 +92,7 @@
   </tr>
 </table>
 
-### Long Tail Keywords
+### Long Tail Keywords <span style="color:red">-</span>
 
 <table>
   <tr>
@@ -106,16 +109,18 @@
   </tr>
 </table>
 
+<hr style="background-color:red" />
+
 ## Analytics
 
-### Goals -
+### Goals <span style="color:red">-</span>
 
 - Determine how many people are visiting my site.
 - Determine how long they are staying on my site.
 - Determine what sections they are viewing the most.
 - Determine what sections they are viewing the least.
 
-### Tools -
+### Tools <span style="color:red">-</span>
 
 1. **Google Analytics**
 
@@ -156,7 +161,7 @@
    - Semrush is an all-in-one tool suite for improving online visibility. It focuses on organic traffic and keywords, and is used primarily for keyword research and understanding what people are searching online, and which websites are getting traffic from those keywords.
    - Pricing starts at $119/month.
 
-### How will I implement?
+### Implementation <span style="color:red">-</span>
 
 I will be using Google Analytics. Because it is freem easy to use, and packed with features. I understand there are many tools available, a lot of them free, but I feel Google Analytics is the best option for me.
 
@@ -164,5 +169,10 @@ I will be using Google Analytics. Because it is freem easy to use, and packed wi
 - Use Google Analytics heatmaps to determine what sections of my site are getting the most/least attention.
 - Use Google Analytics to determine what keywords are bringing the most traffic to my site.
 
+<hr style="background-color:red" />
+
 ## [Research](https://github.com/ClementTJ-FS/portfolio/blob/research/research/marketing.md)
 
+## [Repo](https://github.com/ClementTJ-FS/portfolio/tree/dev)
+
+## [Project Board](https://github.com/users/ClementTJ-FS/projects/1/views/1)
