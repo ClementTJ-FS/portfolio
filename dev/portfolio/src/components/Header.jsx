@@ -52,7 +52,9 @@ const Header = ({ scroll, isMobile }) => {
               <Nav.Link href='#about'>About Me</Nav.Link>
               <Nav.Link href='#projects'>Projects</Nav.Link>
               <Nav.Link href='#contact'>Contact</Nav.Link>
-              <Nav.Link href='resume.pdf'>Resume</Nav.Link>
+              <Nav.Link href='resume.pdf' target='_blank' download>
+                Resume
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
