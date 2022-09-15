@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
-// import About from './components/About';
-// import Projects from './components/Projects';
-// import Contact from './components/Contact';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   const styles = {
@@ -37,52 +37,9 @@ function App() {
     <div className='App'>
       {!isMobile && <h1 style={styles.h1}>TJ Clement</h1>}
       <Header scroll={scroll} isMobile={isMobile} />
-      <div>
-        <p style={styles.test}>
-          sada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad
-          asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada da sada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada da sada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada da sada sdasd sad asd asd asdasdadadasd asdad asda
-          dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada
-          sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd
-          asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada dasada sdasd
-          sad asd asd asdasdadadasd asdad asda dada dasada sdasd sad asd asd
-          asdasdadadasd asdad asda dada dasada sdasd sad asd asd asdasdadadasd
-          asdad asda dada dasada sdasd sad asd asd asdasdadadasd asdad asda dada
-          dasada sdasd sad asd asd asdasdadadasd asdad asda dada da
-        </p>
-      </div>
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
