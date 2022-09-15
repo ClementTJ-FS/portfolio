@@ -32,7 +32,7 @@ const Header = ({ scroll, isMobile }) => {
   }, [isMobile]);
 
   return (
-    <header>
+    <header style={styles.container}>
       <Container>
         <Navbar
           id='navbar'
@@ -59,6 +59,12 @@ const Header = ({ scroll, isMobile }) => {
       </Container>
     </header>
   );
+};
+
+const styles = {
+  container: {
+    zIndex: '100',
+  },
 };
 
 export default Header;
