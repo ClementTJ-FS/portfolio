@@ -53,7 +53,7 @@ const styles = {
     flexDirection: 'column',
     height: '70rem',
     justifyContent: 'center',
-    paddingTop: '5rem',
+    padding: '5rem 0',
     gap: '5rem',
   },
   aboutMe: {

@@ -33,9 +33,9 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     gap: '2rem',
-    height: '90rem',
     backgroundColor: 'white',
     color: 'black',
+    padding: '5rem 0',
   },
   h1: {
     alignSelf: 'center',
