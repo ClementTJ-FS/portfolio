@@ -62,6 +62,7 @@ const styles = {
   title: {
     fontSize: '3rem',
     marginBottom: '2rem',
+    textAlign: 'center',
   },
   text: {
     fontSize: '1.5rem',
@@ -96,7 +97,6 @@ const styles = {
   },
   skillItem: {
     marginBottom: '1rem',
-    display: 'inline-block',
     margin: '0 1rem',
   },
 };
