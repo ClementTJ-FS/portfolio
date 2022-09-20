@@ -32,10 +32,13 @@ const styles = {
   container: {
     display: 'flex',
     flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     gap: '2rem',
     backgroundColor: 'white',
     color: 'black',
     padding: '5rem 0',
+    height: '70rem',
   },
   h1: {
     alignSelf: 'center',
