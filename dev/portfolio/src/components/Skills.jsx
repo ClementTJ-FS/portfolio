@@ -1,36 +1,115 @@
 import React from 'react';
+import SkillBlock from './SkillBlock';
+import Styled from 'styled-components';
 
-const Skills = () => {
+const SkillContainer = Styled.div`
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 2rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+
+const Skills = (isMobile) => {
   return (
     <section style={styles.container}>
+      <h1 style={styles.h1}>Skills</h1>
       <div style={styles.skills}>
-        <h1 style={styles.title}>Skills</h1>
-        <div style={styles.skillsContainer}>
-          <div style={styles.skill}>
-            <h3 style={styles.skillTitle}>Front End</h3>
-            <ul style={styles.skillList}>
-              <li style={styles.skillItem}>HTML</li>
-              <li style={styles.skillItem}>CSS</li>
-              <li style={styles.skillItem}>JavaScript</li>
-              <li style={styles.skillItem}>React</li>
-              <li style={styles.skillItem}>Bootstrap</li>
-              <li style={styles.skillItem}>Material UI</li>
-              <li style={styles.skillItem}>Adobe XD/Prototyping</li>
-            </ul>
-          </div>
-          <div style={styles.skill}>
-            <h3 style={styles.skillTitle}>Back End</h3>
-            <ul style={styles.skillList}>
-              <li style={styles.skillItem}>Node</li>
-              <li style={styles.skillItem}>Express</li>
-              <li style={styles.skillItem}>MongoDB</li>
-              <li style={styles.skillItem}>MySQL</li>
-              <li style={styles.skillItem}>PostgreSQL</li>
-              <li style={styles.skillItem}>Sequelize</li>
-              <li style={styles.skillItem}>RESTful APIs</li>
-            </ul>
-          </div>
-        </div>
+        <h2 style={styles.h2}>Front End</h2>
+        <SkillContainer>
+          <SkillBlock
+            skill={'HTML5'}
+            skillTitle={'HTML5'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'CSS3'}
+            skillTitle={'CSS3'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'JS'}
+            skillTitle={'JavaScript'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'REACT'}
+            skillTitle={'React.JS'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'BOOTSTRAP'}
+            skillTitle={'Bootstrap'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'MATERIAL'}
+            skillTitle={'Material-UI'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'XD'}
+            skillTitle={'Adobe XD'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+        </SkillContainer>
+        <h2 style={styles.h2}>Back End</h2>
+        <SkillContainer>
+          <SkillBlock
+            skill={'NODE'}
+            skillTitle={'Node.JS'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'EXPRESS'}
+            skillTitle={'Express.JS'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'MONGO'}
+            skillTitle={'MongoDB'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'MYSQL'}
+            skillTitle={'MySQL'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'POSTGRES'}
+            skillTitle={'PostgreSQL'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'SEQUELIZE'}
+            skillTitle={'Sequelize'}
+            ext={'png'}
+            isMobile={isMobile}
+          />
+          <SkillBlock
+            skill={'REST'}
+            skillTitle={'REST API'}
+            ext={'svg'}
+            isMobile={isMobile}
+          />
+        </SkillContainer>
       </div>
     </section>
   );
@@ -38,7 +117,6 @@ const Skills = () => {
 
 const styles = {
   container: {
-    height: '70rem',
     backgroundColor: 'black',
     color: 'white',
     display: 'flex',
@@ -46,38 +124,23 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
-  title: {
+  h1: {
     textAlign: 'center',
     fontSize: '3rem',
-    marginBottom: '2rem',
+    margin: '4rem 0',
+  },
+  h2: {
+    fontSize: '2rem',
+    textAlign: 'center',
+    marginBottom: '1rem',
+    color: 'red',
   },
   skills: {
-    marginTop: '5rem',
-    width: '50%',
-  },
-  skillsContainer: {
+    width: '100%',
     display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    textAlign: 'center',
-  },
-  skill: {
-    width: '45%',
-  },
-  skillTitle: {
-    fontSize: '2rem',
-    marginBottom: '1rem',
-    color: 'rgb(255, 0, 0)',
-  },
-  skillList: {
-    fontSize: '1.5rem',
-    lineHeight: '2rem',
-    listStyle: 'none',
-  },
-  skillItem: {
-    marginBottom: '1rem',
-    display: 'inline-block',
-    margin: '0 1rem',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 };
 
