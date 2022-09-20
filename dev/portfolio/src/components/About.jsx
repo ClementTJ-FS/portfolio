@@ -17,13 +17,13 @@ const About = () => {
           <div style={styles.skill}>
             <h3 style={styles.skillTitle}>Front End</h3>
             <ul style={styles.skillList}>
-              <li style={styles.skillItem}>HTML</li>
-              <li style={styles.skillItem}>CSS</li>
+              <li style={styles.skillItem}>HTML5</li>
+              <li style={styles.skillItem}>CSS3</li>
               <li style={styles.skillItem}>JavaScript</li>
               <li style={styles.skillItem}>React</li>
               <li style={styles.skillItem}>Bootstrap</li>
               <li style={styles.skillItem}>Material UI</li>
-              <li style={styles.skillItem}>Adobe XD/Prototyping</li>
+              <li style={styles.skillItem}>Adobe XD</li>
             </ul>
           </div>
           <div style={styles.skill}>
@@ -79,7 +79,7 @@ const styles = {
   skillsContainer: {
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     textAlign: 'center',
   },
   skill: {
