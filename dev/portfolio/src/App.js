@@ -39,7 +39,7 @@ function App() {
       {!isMobile && <h1 style={styles.h1}>TJ Clement</h1>}
       <Header scroll={scroll} isMobile={isMobile} />
       <About />
-      <Skills />
+      <Skills isMobile={isMobile} />
       <Projects />
       <Contact />
     </div>
