@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 
 function App() {
   const styles = {
@@ -38,6 +39,7 @@ function App() {
       {!isMobile && <h1 style={styles.h1}>TJ Clement</h1>}
       <Header scroll={scroll} isMobile={isMobile} />
       <About />
+      <Skills />
       <Projects />
       <Contact />
     </div>
