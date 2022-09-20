@@ -24,7 +24,6 @@ const styles = {
     flexDirection: 'column',
     height: '70rem',
     justifyContent: 'center',
-    paddingTop: '5rem',
   },
   aboutMe: {
     width: '50%',
@@ -32,6 +31,7 @@ const styles = {
   title: {
     fontSize: '3rem',
     marginBottom: '2rem',
+    textAlign: 'center',
   },
   text: {
     fontSize: '1.5rem',

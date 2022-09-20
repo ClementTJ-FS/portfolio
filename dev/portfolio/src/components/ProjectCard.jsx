@@ -9,10 +9,10 @@ const ProjectCard = (props) => {
         <Card.Title>{props.cTitle}</Card.Title>
         <Card.Text>{props.cBody}</Card.Text>
         <Container className='d-flex justify-content-between px-5'>
-          <Button variant='danger' href={props.RepoL}>
+          <Button href={props.RepoL} style={styles.cBtn}>
             Repo
           </Button>
-          <Button variant='danger' href={props.LiveL}>
+          <Button href={props.LiveL} style={styles.cBtn}>
             Live
           </Button>
         </Container>
@@ -23,11 +23,17 @@ const ProjectCard = (props) => {
 
 const styles = {
   card: {
-    width: '18rem',
+    minWidth: '18rem',
+    maxWidth: '18rem',
+    height: '20rem',
     margin: '1rem',
   },
   cImg: {
     height: '10rem',
+  },
+  cBtn: {
+    backgroundColor: 'red',
+    border: 'none',
   },
 };
 
