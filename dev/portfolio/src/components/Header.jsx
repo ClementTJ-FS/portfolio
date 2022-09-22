@@ -40,7 +40,7 @@ const Header = ({ scroll, isMobile }) => {
           expand='md'
           bg='transparent'
           variant='light'
-          className='px-3 mt-5 shadow-sm'
+          className='px-3 mt-5 shadow'
           fixed='top'
         >
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />

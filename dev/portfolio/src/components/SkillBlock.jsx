@@ -21,7 +21,7 @@ const SkillBlock = (props) => {
         width={props.isMobile ? '70px' : '100px'}
         height={props.isMobile ? '70px' : '100px'}
         alt={props.skill}
-        src={process.env.PUBLIC_URL + `/img/${props.skill}.${props.ext}`}
+        src={process.env.PUBLIC_URL + `/img/logos/${props.skill}.${props.ext}`}
         style={styles.sImg}
       />
       <Figure.Caption style={styles.skillTitle}>
