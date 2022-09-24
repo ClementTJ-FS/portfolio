@@ -7,10 +7,11 @@ const Sfigure = Styled(Figure)`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 10rem;
+  width: 8rem;
   margin: 1rem;
+  border-radius: 1rem;
   @media (max-width: 768px) {
-    width: 8rem;
+    width: 6rem;
   }
 `;
 

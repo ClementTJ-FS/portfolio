@@ -17,7 +17,7 @@ const SkillContainer = Styled.div`
 
 const Skills = (isMobile) => {
   return (
-    <section style={styles.container}>
+    <section style={styles.container} id='skills'>
       <h1 style={styles.h1}>Skills</h1>
       <div style={styles.skills}>
         <h2 style={styles.h2}>Front End</h2>
@@ -54,7 +54,7 @@ const Skills = (isMobile) => {
           />
           <SkillBlock
             skill={'MATERIAL'}
-            skillTitle={'Material-UI'}
+            skillTitle={'MaterialUI'}
             ext={'svg'}
             isMobile={isMobile}
           />
@@ -117,16 +117,21 @@ const Skills = (isMobile) => {
 
 const styles = {
   container: {
+    position: 'relative',
     backgroundColor: 'black',
     color: 'white',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    boxShadow: '0px 0px 15px 5px rgba(0,0,0,0.75)',
+    zIndex: '50',
+    paddingBottom: '5rem',
   },
   h1: {
     textAlign: 'center',
-    fontSize: '3rem',
+    fontSize: '5rem',
+    fontWeight: 'bold',
     margin: '4rem 0',
   },
   h2: {

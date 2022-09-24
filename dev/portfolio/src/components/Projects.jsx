@@ -44,11 +44,15 @@ const styles = {
     gap: '2rem',
     backgroundColor: 'white',
     color: 'black',
-    padding: '5rem 0',
-    height: '70rem',
+    paddingBottom: '5rem',
+    minHeight: '50rem',
+    zIndex: '1',
   },
   h1: {
     alignSelf: 'center',
+    margin: '4rem 0',
+    fontSize: '5rem',
+    fontWeight: 'bold',
   },
   cardContainer: {
     alignSelf: 'center',
@@ -61,6 +65,7 @@ const styles = {
   note: {
     fontSize: '1rem',
     color: 'red',
+    padding: '0 2rem',
   },
 };
 export default Projects;
