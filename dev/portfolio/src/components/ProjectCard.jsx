@@ -17,6 +17,9 @@ const PCard = Styled(Card)`
     transform: scale(1.1);
     box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2);
   }
+  .cTxt {
+    min-height: 9rem;
+  }
 `;
 
 const ProjectCard = (props) => {
@@ -29,7 +32,7 @@ const ProjectCard = (props) => {
       />
       <Card.Body>
         <Card.Title>{props.cTitle}</Card.Title>
-        <Card.Text>{props.cBody}</Card.Text>
+        <Card.Text className='cTxt'>{props.cBody}</Card.Text>
         <Container className='d-flex justify-content-between px-5'>
           <Button href={props.RepoL} target='_blank' style={styles.cBtn}>
             Repo

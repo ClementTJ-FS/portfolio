@@ -6,8 +6,8 @@ const Projects = () => {
     <section style={styles.container} id='projects'>
       <h1 style={styles.h1}>Projects</h1>
       <p style={styles.note}>
-        Please Note: Fight Finder uses Heroku for deployment, so it might take a
-        few seconds to load initially.
+        Please Note: Fight Finder and Quiz App use Heroku for deployment, so it
+        might take a few seconds to load initially.
       </p>
       <div style={styles.cardContainer}>
         <ProjectCard
@@ -18,10 +18,11 @@ const Projects = () => {
           LiveL='https://clementtj-fs.github.io/WDD348/#/'
         />
         <ProjectCard
-          cTitle='Test'
-          cBody='This is a test body, this will be a description of the project.'
-          RepoL='#'
-          LiveL='#'
+          cImg='QA'
+          cTitle='Quiz App'
+          cBody='Quiz App is a simple web application that offers users custom quizzes to take. It is built with React.JS, PostgreSQL, and Express.JS.'
+          RepoL='https://github.com/ClementTJ-FS/WDD442'
+          LiveL='https://quiz-app-tjc.herokuapp.com/'
         />
         <ProjectCard
           cImg='FF'
