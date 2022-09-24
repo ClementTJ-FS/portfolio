@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     //check if mobile
-    window.innerWidth <= 768 ? setIsMobile(true) : setIsMobile(false);
+    window.innerWidth <= 991 ? setIsMobile(true) : setIsMobile(false);
     //check scroll
     if (!isMobile) {
       window.addEventListener('scroll', () => {

@@ -1,8 +1,19 @@
 import React from 'react';
+import Styled from 'styled-components';
+
+const SAbout = Styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: 50rem;
+  color: black;
+  `;
 
 const About = () => {
   return (
-    <section style={styles.container} id='about'>
+    <SAbout id='about'>
       <div style={styles.aboutMe}>
         <h1 style={styles.title}>About Me</h1>
         <p style={styles.text}>
@@ -11,35 +22,27 @@ const About = () => {
           applications.
         </p>
       </div>
-    </section>
+    </SAbout>
   );
 };
 
 const styles = {
-  container: {
-    alignItems: 'center',
-    backgroundColor: 'white',
-    color: 'black',
-    display: 'flex',
-    flexDirection: 'column',
-    height: '70rem',
-    justifyContent: 'center',
-  },
   aboutMe: {
     width: '50%',
   },
   title: {
-    fontSize: '3rem',
+    fontSize: '5rem',
     marginBottom: '2rem',
     textAlign: 'center',
   },
   text: {
-    fontSize: '1.5rem',
-    lineHeight: '2rem',
+    fontSize: '3rem',
+    lineHeight: '4rem',
     textAlign: 'center',
   },
   name: {
     color: 'rgb(255, 0, 0)',
+    fontWeight: 'bold',
   },
 };
 
