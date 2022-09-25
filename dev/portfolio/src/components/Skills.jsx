@@ -127,6 +127,8 @@ const styles = {
     boxShadow: '0px 0px 15px 5px rgba(0,0,0,0.75)',
     zIndex: '50',
     paddingBottom: '5rem',
+    width: '98%',
+    margin: '0 auto',
   },
   h1: {
     textAlign: 'center',

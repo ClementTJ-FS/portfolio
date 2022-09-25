@@ -10,7 +10,8 @@ const ContactContainer = Styled.section`
   background-color: black;
   color: white;
   padding-bottom: 5rem;
-  width: 100%;
+  width: 98%;
+  margin: 0 auto;
   box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
 
   .err {
