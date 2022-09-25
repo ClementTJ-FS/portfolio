@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 const SAbout = Styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 50rem;

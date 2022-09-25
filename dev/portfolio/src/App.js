@@ -6,18 +6,6 @@ import Contact from './components/Contact';
 import Skills from './components/Skills';
 
 function App() {
-  const styles = {
-    test: {
-      marginTop: '10rem',
-      fontSize: '2rem',
-    },
-    h1: {
-      textAlign: 'center',
-      fontSize: '3rem',
-      marginBottom: '2rem',
-    },
-  };
-
   const [scroll, setScroll] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -34,6 +22,23 @@ function App() {
     }
   }, [isMobile]);
 
+  //reload on resize with timeout
+  useEffect(() => {
+    let timeout = null;
+    const resizeListener = () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        window.location.reload();
+      }, 150);
+    };
+    window.addEventListener('resize', resizeListener);
+
+    //clean up
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    };
+  }, []);
+
   return (
     <div className='App'>
       {!isMobile && <h1 style={styles.h1}>TJ Clement</h1>}
@@ -45,5 +50,13 @@ function App() {
     </div>
   );
 }
+
+const styles = {
+  h1: {
+    textAlign: 'center',
+    fontSize: '3rem',
+    marginBottom: '2rem',
+  },
+};
 
 export default App;
