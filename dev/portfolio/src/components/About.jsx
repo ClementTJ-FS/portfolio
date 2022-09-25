@@ -34,6 +34,7 @@ const styles = {
     fontSize: '5rem',
     marginBottom: '2rem',
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   text: {
     fontSize: '3rem',
