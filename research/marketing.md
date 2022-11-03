@@ -1,4 +1,5 @@
-# [8 Outstanding Ways to Promote Your New Website](https://www.bluehost.com/blog/online-marketing-2/promote-your-new-website-8669/?utm_source=google&utm_medium=genericsearch&kclickid=3e30e267-dbd9-43d7-abda-c421d995b0d8&kenshoo_ida=Blue Host IDA&gclid=Cj0KCQiAnNXiBRCoARIsAJe_1crIBRjHwneYyOF_qhnu80Ki7uQTB8Sp88AXARN7WMjheVhPSBUjsG0aAlUMEALw_wcB)
+# [8 Outstanding Ways to Promote Your New Website](https://www.bluehost.com/blog/promote-your-new-website/)
+
 
 **Nothing will drive traffic to your website more than organic ranking.**
 
@@ -66,3 +67,44 @@
   Use meaningful headings to indicate important topics, and help create a hierarchical structure for your content, making it easier for users to navigate through your document.
 
   - #### Use headings sparingly across the page
+
+# [Best Analytics Tools](https://www.monsterinsights.com/best-website-analytics-tools/)
+
+1. **Google Analytics**
+
+   - Google Analytics is the most popular analytics tool in the world, and for good reason. It’s free, it’s easy to use, and it’s packed with features.
+   - Free
+
+2. **MonsterInsights**
+
+   - MonsterInsights is the best Google Analytics plugin for WordPress. It’s easy to install and use, and it’s packed with features that make it easy to see how your website is performing.
+   - Starts at $99/year
+
+3. **HubSpot**
+
+   - HubSpot is a whole set of marketing tools, including analytics, that can help any business thrive. While HubSpot isn’t the most in-depth and advanced analytics, the other tools that you can add on really make it an awesome sales, marketing, and analytics platform.
+   - Free plan available. Paid plans start at $45/month.
+
+4. **Mixpanel**
+
+   - Mixpanel is a product-focused analytics solution, built specifically for eCommerce websites.
+   - Mixpanel does have a free version to get you started. Then, plans start at $25/month.
+
+5. **Hotjar**
+
+   - Hotjar is not a stand-alone analytics platform, but it does have some pretty cool analytics features. Primarily, Hotjar is a heatmap tool that can show you how far down on your pages your visitors are scrolling and where they’re clicking. It can also gather feedback from your visitors about their experience on your site.
+   - Free plan available. Paid plans start at $32/month.
+
+6. **Kissmetrics**
+
+   - Kissmetrics is a web analytics tool for SAAS and eCommerce companies that focuses on users and their interactions with your site instead of anonymous visits.
+   - $299/month
+
+7. **Matomo**
+
+   - Matomo is a Google Analytics alternative that’s focused on privacy protection and data ownership, in order to make sure you’re GDPR compliant. As far as features go, Matomo has a lot of the features that Google Analytics does, as well as heatmaps and A/B testing.
+   - Pricing depends on how many visitors you get per month, plus whether you’re hosting the tool on your own servers or Matomo’s. For easy setup on Matomo’s servers, the monthly price starts at $23.
+
+8. **Semrush**
+   - Semrush is an all-in-one tool suite for improving online visibility. It focuses on organic traffic and keywords, and is used primarily for keyword research and understanding what people are searching online, and which websites are getting traffic from those keywords.
+   - Pricing starts at $119/month.
