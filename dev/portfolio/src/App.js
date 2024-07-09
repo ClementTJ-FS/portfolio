@@ -22,23 +22,6 @@ function App() {
     }
   }, [isMobile]);
 
-  //reload on resize with timeout
-  // useEffect(() => {
-  //   let timeout = null;
-  //   const resizeListener = () => {
-  //     clearTimeout(timeout);
-  //     timeout = setTimeout(() => {
-  //       window.location.reload();
-  //     }, 150);
-  //   };
-  //   window.addEventListener('resize', resizeListener);
-
-  //   //clean up
-  //   return () => {
-  //     window.removeEventListener('resize', resizeListener);
-  //   };
-  // }, []);
-
   return (
     <div className='App'>
       {!isMobile && <h1 style={styles.h1}>TJ Clement</h1>}
