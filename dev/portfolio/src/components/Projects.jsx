@@ -59,7 +59,7 @@ const styles = {
     width: '50%',
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
     flexWrap: 'wrap',
   },
   note: {
