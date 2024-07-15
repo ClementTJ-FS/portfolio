@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import Styled from 'styled-components';
 import './Header.css';
 
@@ -14,6 +15,22 @@ const SHeader = Styled.header`
   a.nav-link {
     height: 100%;
   }
+
+  .nav-item {
+    height: 100%;
+    color: #000000A6;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+
+    :hover {
+    cursor: pointer;
+    color: #f00;
+    }
+  }
+
+  .nav-item-dark {
+    color: #FFFFFFBF;
+    }
 
   h1 {
     font-size: 2rem;
@@ -37,12 +54,16 @@ const Header = ({ scroll, isMobile }) => {
       document.querySelector('.navbar').classList.remove('navbar-light');
       document.querySelector('.navbar').classList.add('bg-dark');
       document.querySelector('.navbar').classList.add('navbar-dark');
+      const navItems = document.querySelectorAll('.nav-item');
+      navItems.forEach((item) => item.classList.add('nav-item-dark'));
     } else if (scroll < 50) {
       document.querySelector('.navbar').classList.add('mt-5');
       document.querySelector('.navbar').classList.add('bg-transparent');
       document.querySelector('.navbar').classList.remove('bg-dark');
       document.querySelector('.navbar').classList.remove('navbar-dark');
       document.querySelector('.navbar').classList.add('navbar-light');
+      const navItems = document.querySelectorAll('.nav-item');
+      navItems.forEach((item) => item.classList.remove('nav-item-dark'));
     }
   }, [scroll, isMobile]);
 
@@ -64,7 +85,7 @@ const Header = ({ scroll, isMobile }) => {
           expand='lg'
           bg='transparent'
           variant='light'
-          className='px-3 py-0 mt-5 shadow'
+          className='px-3 py-0 mt-5 shadow-sm'
           fixed='top'
         >
           {isMobile && <h1>TJ Clement</h1>}
@@ -74,13 +95,26 @@ const Header = ({ scroll, isMobile }) => {
             className='justify-content-center'
           >
             <Nav>
-              <Nav.Link href='#about'>About Me</Nav.Link>
-              <Nav.Link href='#skills'>Skills</Nav.Link>
-              <Nav.Link href='#projects'>Projects</Nav.Link>
-              <Nav.Link href='#contact'>Contact</Nav.Link>
-              <Nav.Link href='files/ClementTJ_resume.pdf' target='_blank' download>
+              <Link className='nav-item' to='about' spy={true}>
+                About Me
+              </Link>
+              <Link className='nav-item' to='skills' spy={true}>
+                Skills
+              </Link>
+              <Link className='nav-item' to='projects' spy={true}>
+                Projects
+              </Link>
+              <Link className='nav-item' to='contact' spy={true}>
+                Contact
+              </Link>
+              <Link
+                className='nav-item'
+                to='files/ClementTJ_resume.pdf'
+                target='_blank'
+                download
+              >
                 Resume
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
