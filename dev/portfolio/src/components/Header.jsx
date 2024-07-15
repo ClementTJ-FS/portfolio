@@ -16,7 +16,20 @@ const SHeader = Styled.header`
     height: 100%;
   }
 
+
+
   .nav-item {
+    height: 100%;
+    color: #FFFFFFBF;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+
+    :hover {
+    cursor: pointer;
+    color: #f00;
+    }
+  }
+  .nav-item-light {
     height: 100%;
     color: #000000A6;
     text-decoration: none;
@@ -27,10 +40,6 @@ const SHeader = Styled.header`
     color: #f00;
     }
   }
-
-  .nav-item-dark {
-    color: #FFFFFFBF;
-    }
 
   h1 {
     font-size: 2rem;
@@ -54,16 +63,19 @@ const Header = ({ scroll, isMobile }) => {
       document.querySelector('.navbar').classList.remove('navbar-light');
       document.querySelector('.navbar').classList.add('bg-dark');
       document.querySelector('.navbar').classList.add('navbar-dark');
-      const navItems = document.querySelectorAll('.nav-item');
-      navItems.forEach((item) => item.classList.add('nav-item-dark'));
-    } else if (scroll < 50) {
+      document
+        .querySelectorAll('.nav-item')
+        .forEach((item) => item.classList.remove('nav-item-light'));
+    } else {
       document.querySelector('.navbar').classList.add('mt-5');
       document.querySelector('.navbar').classList.add('bg-transparent');
       document.querySelector('.navbar').classList.remove('bg-dark');
       document.querySelector('.navbar').classList.remove('navbar-dark');
       document.querySelector('.navbar').classList.add('navbar-light');
-      const navItems = document.querySelectorAll('.nav-item');
-      navItems.forEach((item) => item.classList.remove('nav-item-dark'));
+      document
+        .querySelectorAll('.nav-item')
+        .forEach((item) => item.classList.add('nav-item-light'));
+      // console.log('light', scroll, isMobile);
     }
   }, [scroll, isMobile]);
 
@@ -95,16 +107,16 @@ const Header = ({ scroll, isMobile }) => {
             className='justify-content-center'
           >
             <Nav>
-              <Link className='nav-item' to='about' spy={true}>
+              <Link className='nav-item' to='about' spy={true} offset={-570}>
                 About Me
               </Link>
-              <Link className='nav-item' to='skills' spy={true}>
+              <Link className='nav-item' to='skills' spy={true} offset={-570}>
                 Skills
               </Link>
-              <Link className='nav-item' to='projects' spy={true}>
+              <Link className='nav-item' to='projects' spy={true} offset={-570}>
                 Projects
               </Link>
-              <Link className='nav-item' to='contact' spy={true}>
+              <Link className='nav-item' to='contact' spy={true} offset={-570}>
                 Contact
               </Link>
               <Link
