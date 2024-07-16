@@ -127,7 +127,7 @@ const Header = ({ scroll, isMobile }) => {
                 className='nav-item'
                 to='about'
                 spy={true}
-                offset={-570}
+                offset={-400}
               >
                 About Me
               </Link>
