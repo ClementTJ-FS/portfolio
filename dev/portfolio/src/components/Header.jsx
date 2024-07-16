@@ -45,6 +45,11 @@ const SHeader = Styled.header`
     
   #about {
     color: #000000A6;
+
+    :hover {
+    cursor: pointer;
+    color: #f00;
+    }
   }
 
   h1 {

@@ -60,7 +60,7 @@ const About = () => {
         >
           <img
             src='https://img.icons8.com/ios-filled/50/000000/github.png'
-            alt='github'
+            alt='github link'
             style={styles.icon}
           />
           GitHub

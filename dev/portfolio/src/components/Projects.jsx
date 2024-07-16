@@ -64,7 +64,7 @@ const styles = {
   },
   note: {
     fontSize: '1rem',
-    color: 'red',
+    color: 'darkred',
     padding: '0 2rem',
   },
 };

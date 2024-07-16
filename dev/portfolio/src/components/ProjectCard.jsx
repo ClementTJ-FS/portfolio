@@ -27,6 +27,7 @@ const ProjectCard = (props) => {
     <PCard style={styles.card}>
       <Card.Img
         variant='top'
+        alt={props.cTitle + ' image'}
         src={process.env.PUBLIC_URL + `/img/projects/${props.cImg}.png`}
         style={styles.cImg}
       />
