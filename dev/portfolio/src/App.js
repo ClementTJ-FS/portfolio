@@ -14,12 +14,23 @@ function App() {
     window.innerWidth <= 991 ? setIsMobile(true) : setIsMobile(false);
     //check scroll
     if (!isMobile) {
-      window.addEventListener('scroll', () => {
-        setScroll(window.scrollY);
-      });
+      window.addEventListener(
+        'scroll',
+        () => {
+          setScroll(window.scrollY);
+        },
+        { passive: true }
+      );
     } else if (isMobile) {
       setScroll(0);
     }
+
+    // //cleanup
+    return () => {
+      window.removeEventListener('scroll', () => {
+        setScroll(window.scrollY);
+      });
+    };
   }, [isMobile]);
 
   return (
