@@ -21,6 +21,8 @@ const SHeader = Styled.header`
   .nav-item {
     height: 100%;
     color: #FFFFFFBF;
+    font-weight: 700;
+    font-size: 1.25rem;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
 
@@ -40,6 +42,10 @@ const SHeader = Styled.header`
     color: #f00;
     }
   }
+    
+  #about {
+    color: #000000A6;
+  }
 
   h1 {
     font-size: 2rem;
@@ -49,6 +55,11 @@ const SHeader = Styled.header`
     position: absolute;
     left: 1rem;
     top: 0;
+  }
+
+  #download {
+    width: 1.5rem;
+    font-size: 1rem;
   }
 `;
 
@@ -66,15 +77,19 @@ const Header = ({ scroll, isMobile }) => {
       document
         .querySelectorAll('.nav-item')
         .forEach((item) => item.classList.remove('nav-item-light'));
+      let about = document.querySelector('#about');
+      if (about) {
+        about.removeAttribute('id');
+      }
     } else {
       document.querySelector('.navbar').classList.add('mt-5');
       document.querySelector('.navbar').classList.add('bg-transparent');
       document.querySelector('.navbar').classList.remove('bg-dark');
       document.querySelector('.navbar').classList.remove('navbar-dark');
       document.querySelector('.navbar').classList.add('navbar-light');
-      document
-        .querySelectorAll('.nav-item')
-        .forEach((item) => item.classList.add('nav-item-light'));
+      document.querySelectorAll('.nav-item').forEach((item) => {
+        item.classList.add('nav-item-light');
+      });
       // console.log('light', scroll, isMobile);
     }
   }, [scroll, isMobile]);
@@ -107,7 +122,13 @@ const Header = ({ scroll, isMobile }) => {
             className='justify-content-center'
           >
             <Nav>
-              <Link className='nav-item' to='about' spy={true} offset={-570}>
+              <Link
+                id='about'
+                className='nav-item'
+                to='about'
+                spy={true}
+                offset={-570}
+              >
                 About Me
               </Link>
               <Link className='nav-item' to='skills' spy={true} offset={-570}>
@@ -125,7 +146,7 @@ const Header = ({ scroll, isMobile }) => {
                 target='_blank'
                 download
               >
-                Resume
+                Resume <i className='bi bi-download'> </i>
               </Link>
             </Nav>
           </Navbar.Collapse>
