@@ -22,14 +22,14 @@ const Projects = () => {
           cTitle='Quiz App'
           cBody='Quiz App is a simple web application that offers users custom quizzes to take. It is built with React.JS, PostgreSQL, and Express.JS.'
           RepoL='https://github.com/ClementTJ-FS/WDD442'
-          LiveL='https://quiz-app-tjc.herokuapp.com/'
+          LiveL='https://wdd442-production.up.railway.app'
         />
         <ProjectCard
           cImg='FF'
           cTitle='Fight Finder'
           cBody='Fight Finder is a web application that allows users to search for upcoming fighting events. It is built with React.JS and uses a fully custom API and PostgreSQL database.'
           RepoL='https://github.com/ClementTJ-FS/FightFinder'
-          LiveL='https://fight-finder.herokuapp.com/'
+          LiveL='https://fightfinder-production.up.railway.app/'
         />
       </div>
     </section>
