@@ -5,10 +5,7 @@ const Projects = () => {
   return (
     <section style={styles.container} id='projects'>
       <h1 style={styles.h1}>Projects</h1>
-      <p style={styles.note}>
-        Please Note: Fight Finder and Quiz App use Heroku for deployment, so it
-        might take a few seconds to load initially.
-      </p>
+
       <div style={styles.cardContainer}>
         <ProjectCard
           cImg='GF'
