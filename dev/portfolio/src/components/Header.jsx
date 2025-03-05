@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import Styled from 'styled-components';
 import './Header.css';
+import myResume from '../assets/ClementTJ_resume.pdf';
 
 const SHeader = Styled.header`
   z-index: 100;
@@ -145,14 +146,14 @@ const Header = ({ scroll, isMobile }) => {
               <Link className='nav-item' to='contact' spy={true} offset={-570}>
                 Contact
               </Link>
-              <Link
+              <a
                 className='nav-item'
                 to='files/ClementTJ_resume.pdf'
-                target='_blank'
                 download
+                href={myResume}
               >
                 Resume <i className='bi bi-download'> </i>
-              </Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
